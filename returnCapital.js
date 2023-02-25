@@ -19,4 +19,4 @@ const returnCapital = (str) => {
   return capitalLetters;
 };
 
-console.log(returnCapital('How I Met Your Mother'))
+console.log(returnCapital('ljFknsUlsdniCnskdKiniMinasinE'))
