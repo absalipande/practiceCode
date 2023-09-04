@@ -5,9 +5,9 @@
 // return
 
 const duplicateCount = (arr) => {
-  const arrLength = arr.length;
+  const n = arr.length;
 
-  for (let i = 0; i < arrLength; i++) {
+  for (let i = 0; i < n; i++) {
     arr.push(arr[i]);
   }
 

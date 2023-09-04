@@ -10,4 +10,4 @@ const capitalized = (str) => {
   return strResult.join(' ');
 };
 
-console.log(capitalized('amiel brencis salipande'))
+console.log(capitalized('chicken joy'));

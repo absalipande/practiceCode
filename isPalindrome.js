@@ -9,6 +9,7 @@ const isPalindrome = (str) => {
   str = str.replace(/[^a-z0-9]/gi, '');
   let left = 0;
   let right = str.length - 1;
+
   while (left <= right) {
     if (str[left].toLowerCase() !== str[right].toLowerCase()) {
       return false;
