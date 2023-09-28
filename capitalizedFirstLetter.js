@@ -2,12 +2,19 @@
 // initialize a variable to store all the converted input string
 // return
 
-const capitalized = (str) => {
+// const capitalized = (str) => {
+//   let strResult = str.split(' ').map((word) => {
+//     return word.charAt(0).toUpperCase() + word.slice(1);
+//   });
+
+//   return strResult.join(' ');
+// };
+
+function capitalized(str) {
   let strResult = str.split(' ').map((word) => {
     return word.charAt(0).toUpperCase() + word.slice(1);
-  });
+  })
 
-  return strResult.join(' ');
-};
-
+  return strResult.join(' ')
+}
 console.log(capitalized('chicken joy'));

@@ -1,8 +1,9 @@
 function domainName(url) {
-  let hostname = url.replace(/(https?:\/\/)?(www\.)?/, '');
-  let domain = hostname.split('.')[0];
+    url = url.replace('https://', '')
+    url = url.replace('http://', '')
+    url = url.replace('www.',' ')
 
-  return domain;
+    return url.split('.')[0]
 }
 
 console.log(domainName('http://google.com'));

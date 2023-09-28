@@ -1,0 +1,89 @@
+Second problem:
+Anteriore start
+Assume {
+    Armory - 2        // 0 - 2 
+    Assume {
+        Assemble      
+    }
+    Armory > 0.0    
+    Armory + 2.0    
+    Again true     
+    Assemble 
+}
+Anteriore end 
+
+First comparison
+First output: null, null, null
+Second output: -2, 2.0, false
+
+Second comparison
+First assemble: null, null, null
+Second assemble: -4, 4.0, true
+
+Third problem:
+
+ 2. 
+Anteriore start
+Assume {
+    Armory.int = 1
+    Again 5
+    Armory.float = Armory.float + Armory.int
+    Armory.int = Armory.int + 1
+    Assemble
+}
+Anteriore end
+
+3. Anteriore start
+    Assume {
+    Armory.float = 0  // Our summation value starts at 0.
+    Again 5  // Will run until Armory.int becomes 6
+    Armory.float = Armory.float + Armory.int
+    Armory.int = Armory.int + 1  // Incrementing our counter
+    Assemble  // To see the progress, though you can remove it to see just the final output.
+    }
+Anteriore end
+
+5. Anteriore start
+    Assume {
+    Armory.int = 1
+    Armory.float = 0
+    Again 5
+    Armory.float = Armory.float + (6 - Armory.int)
+    Armory.int = Armory.int + 1
+    Assemble
+}
+Anteriore end
+
+6. 
+Anteriore start
+Assume {
+    Armory.int = 5
+    Armory.float = 0
+    Again 0
+    Armory.float = Armory.float + Armory.int
+    Armory.int = Armory.int - 1
+    Assemble 
+}
+Anteriore end
+
+
+Anteriore start
+Assume {
+    Armory.int = 0
+    Armory.float = 0
+    Again 5
+    Armory.float = Armory.float + Armory.int
+    Armory.int = Armory.int + 1
+    Assemble
+}
+Anteriore end
+
+
+Anteriore start
+Assume {
+    Armory.int = Armory.int + 1
+    Armory.float = Armory.float + Armory.int
+    Again 5
+    Assemble 
+}
+Anteriore end

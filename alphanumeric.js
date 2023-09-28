@@ -3,5 +3,5 @@ function alphanumeric(string) {
   return regex.test(string);
 }
 
-console.log(alphanumeric('Maziknkaiser'));
+console.log(alphanumeric('helloworld'));
 console.log(alphanumeric('hello_world'));

@@ -22,6 +22,7 @@ const nums = [1, 2, 4, 5, 6, 7, 11, 13, 14];
 // @ts-ignore
 const target = 9;
 
+// @ts-ignore
 const result = findTwoNumbers(nums, target);
 
 if (result.length == 2) {
